@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problema 2 - CLS Luz y Sombras</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+
+    <h1>CLS: PAGO DE ENERGÍA ELÉCTRICA</h1>
+
+    <div class="contenedor-calculadora">
+        <p>Cálculo de consumo eléctrico</p>
+        
+        <label>Kilowatts consumidos (KW):</label>
+        <input type="number" id="kwConsumidos" placeholder="Ejemplo: 120">
+        
+        <label>Costo por Kilowatt ($):</label>
+        <input type="number" id="costoKW" placeholder="Ejemplo: 0.85">
+        
+        <button onclick="calcularLuz()">CALCULAR PAGO</button>
+
+        <div id="resultado" class="resultado-caja"></div>
+    </div>
+
+    <div class="navegacion">
+        <a href="problema1.html" class="btn-nav">Anterior</a> 
+        <a href="../styles/index.html" class="btn-nav btn-home">Home</a>
+        <a href="problema3.html" class="btn-nav">Siguiente</a>
+    </div>
+
+    <script src="../scripts/problema2.js"></script>
+</body>
+</html>
